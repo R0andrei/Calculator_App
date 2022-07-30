@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <p>CALCULATOR APP</p>
+        <div class="calcBackground">
+            <div class="calcDisplay">
+                <p id="calcText"></p>
+            </div>
+            <div class="calcRow">
+                <a href="#" class="calcButton" onclick="newNumber(7)">7</a>
+                <a href="#" class="calcButton" onclick="newNumber(8)">8</a>
+                <a href="#" class="calcButton" onclick="newNumber(9)">9</a>
+                <a href="#" class="calcButton2" onclick="addNumber()">+</a>
+            </div>
+            <div class="calcRow">
+                <a href="#" class="calcButton" onclick="newNumber(4)">4</a>
+                <a href="#" class="calcButton" onclick="newNumber(5)">5</a>
+                <a href="#" class="calcButton" onclick="newNumber(6)">6</a>
+                <a href="#" class="calcButton2" onclick="subNumber()">-</a>
+            </div>
+            <div class="calcRow">
+                <a href="#" class="calcButton" onclick="newNumber(1)">1</a>
+                <a href="#" class="calcButton" onclick="newNumber(2)">2</a>
+                <a href="#" class="calcButton" onclick="newNumber(3)">3</a>
+                <a href="#" class="calcButton2" onclick="multNumber()">*</a>
+            </div>
+            <div class="calcRow">
+                <a href="#" class="calcButton" onclick="newNumber(0)">0</a>
+                <a href="#" class="calcButton2" onclick="deleteAll()">AC</a>
+                <a href="#" class="calcButton2" onclick="eqNumber()">=</a>
+                <a href="#" class="calcButton2" onclick="divNumber()">/</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
+
+123+
+456-
+789*
+0AC=/

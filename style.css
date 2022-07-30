@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+.container {
+    width: 1024px;
+    min-height: 900px;
+    margin: 15px auto;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+p {
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.calcBackground {
+    margin: 100px auto;
+    background-color: rgb(32, 32, 32);
+    height: 340px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.calcDisplay {
+    margin-top:15px;
+    height: 100px;
+    background-color: rgb(104, 104, 104);
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: right;
+    
+}
+#calcText{
+    padding:30px;
+    overflow:hidden;
+}
+
+.calcRow {
+    margin-top: 15px;
+}
+
+.calcButton {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    color: white;
+    background-color: rgb(48, 48, 48);
+    text-decoration: none;
+    margin: 0 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.calcButton:hover {
+    background-color: rgb(17, 17, 17);
+}
+.calcButton2 {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    color: white;
+    background-color: rgb(151, 131, 87);
+    text-decoration: none;
+    margin: 0 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.calcButton2:hover {
+    background-color: rgb(88, 77, 49);
+}
